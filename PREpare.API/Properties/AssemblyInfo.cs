@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PREpare.API")]
+[assembly: AssemblyTitle("PREcare.API")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("BCG")]
-[assembly: AssemblyProduct("PREpare.API")]
+[assembly: AssemblyProduct("PREcare.API")]
 [assembly: AssemblyCopyright("Copyright © BCG 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

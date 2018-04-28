@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace PREpare.API.Controllers
+namespace PREcare.API.Controllers
 {
     public class RegisterController : ApiController
     {
