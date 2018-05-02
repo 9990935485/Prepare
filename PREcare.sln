@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PREcare", "PREpare\PREcare.csproj", "{2160D911-BC5C-40DD-ACCC-E9B0A6E10E37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PREcare", "PREcare\PREcare.csproj", "{2160D911-BC5C-40DD-ACCC-E9B0A6E10E37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PREcare.API", "PREpare.API\PREcare.API.csproj", "{7DDA04B4-BEF5-419A-9D37-D04955EA0DA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PREcare.API", "PREcare.API\PREcare.API.csproj", "{7DDA04B4-BEF5-419A-9D37-D04955EA0DA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
