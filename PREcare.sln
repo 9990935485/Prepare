@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PREcare", "PREcare\PREcare.csproj", "{2160D911-BC5C-40DD-ACCC-E9B0A6E10E37}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PREcare.API", "PREcare.API\PREcare.API.csproj", "{7DDA04B4-BEF5-419A-9D37-D04955EA0DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PREcare.BL", "PREcare.BL\PREcare.BL.csproj", "{74343488-9119-45CB-BBE2-7423E455986C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PREcare.DL", "PREcare.DL\PREcare.DL.csproj", "{B3256998-25D2-46CF-97C5-49A9E557AE88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{7DDA04B4-BEF5-419A-9D37-D04955EA0DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DDA04B4-BEF5-419A-9D37-D04955EA0DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DDA04B4-BEF5-419A-9D37-D04955EA0DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74343488-9119-45CB-BBE2-7423E455986C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74343488-9119-45CB-BBE2-7423E455986C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74343488-9119-45CB-BBE2-7423E455986C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74343488-9119-45CB-BBE2-7423E455986C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3256998-25D2-46CF-97C5-49A9E557AE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3256998-25D2-46CF-97C5-49A9E557AE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3256998-25D2-46CF-97C5-49A9E557AE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3256998-25D2-46CF-97C5-49A9E557AE88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

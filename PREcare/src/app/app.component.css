@@ -1,169 +1,108 @@
-/*header section css start*/
-.header {
-    width: 100%;
-    /*background: url(../../image/topbar.jpg) center no-repeat;*/
-    height: 80px;
-    float: left;
-    /*background-size: cover;*/
-    background-color: #4b4f47;
-    padding-top: 10px;
+﻿body {
+  padding-top: 5rem;
 }
 
-    .header .header_left_port {
-        width: 100%;
-        float: left;
-        height: 50px;
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.nav-link-right {
+  position: absolute;
+  right: 2%;
+}
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+  .loginmodal-container h1 {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: roboto;
+  }
+
+  .loginmodal-container input[type=submit] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .loginmodal-container input[type=text], input[type=password] {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    /* border-radius: 2px; */
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+    .loginmodal-container input[type=text]:hover, input[type=password]:hover {
+      border: 1px solid #b9b9b9;
+      border-top: 1px solid #a0a0a0;
+      -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+      -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
     }
 
-.header_left_port .bcg_logo {
-    /* background: url(../../image/bcg_logo.png) no-repeat; */
-    width: 69px;
-    height: 39px;
-    margin-left: 1%;
-    margin-top: 5px;
-    float: left;
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+  /* border-radius: 3px; */
+  /* -webkit-user-select: none;
+  user-select: none; */
 }
 
-.header_left_port .mid_space {
-    color: #fff;
-    margin-left: 5px;
-    margin-right: 5px;
-    float: left;
-    margin-top: 5px;
-    font-size: 29px;
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
 }
 
-.header_left_port .head_cont {
-    font-family: Montserrat;
-    font-weight: 500;
-    color: #fff;
-    margin-left: 20px;
-    /* margin-right: 5px; */
-    float: left;
-    /* margin-top: 11px; */
-    font-size: 25px;
-    /* line-height: 36px; */
-    padding-top: 8px;
+  .loginmodal-submit:hover {
+    /* border: 1px solid #2f5bb7; */
+    border: 0px;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    background-color: #357ae8;
+    /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+  }
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
 }
 
-.app_lab {
-    color: #fff;
-    display: block;
-    margin-top: 12px;
-    margin-right: 30px;
-    /* margin-left: 2px; */
-    cursor: pointer;
-    /* background: url('../../image/applabs-smalllogo.png') no-repeat; */
-    width: 82px;
-    height: 29px;
-    float: right;
+.login-help {
+  font-size: 12px;
 }
-
-.dropdown.dropdown-scroll .dropdown-menu {
-    max-height: 200px;
-    width: 60px;
-    overflow: auto;
-}
-.search-control {
-    padding: 5px 10px;
-}
-
-.seperator {
-    color: #fff;
-    display: block;
-    margin-top: 12px;
-    margin-right: 15px;
-    /* margin-left: 2px; */
-    cursor: pointer;
-    /* background: url(../../image/pipe.png) no-repeat; */
-    width: 1px;
-    height: 29px;
-    float: right;
-}
-
-.btn-calendar {
-    /* background-image: url('../../image/calendar.png') !important; */
-    background-repeat: no-repeat;
-    background-position: 94%;
-    cursor: pointer;
-}
-
-.bcg_logo_right {
-    color: #fff;
-    display: block;
-    /* background: url(../../image/bcg_logo_right.png) no-repeat; */
-    width: 60px;
-    height: 44px;
-    float: right;
-    background-position: 5px 18px;
-    margin-left: 20px;
-}
-
-.mail_lnk {
-    float: right;
-    display: inline-block;
-    margin-top: 12px;
-    cursor: pointer;
-    /* background: url(../../Content/icon_sprite.png) -15px -506px no-repeat; */
-    /* background: url(../../image/new_mail.png) no-repeat; */
-    /*width: 88px;*/
-    height: 28px;
-    line-height: 40px;
-    font-size: 11px;
-    padding-left: 22px;
-    background-position: 0px 16px;
-    background-size: 14%;
-}
-
-.help_lnk {
-    float: right;
-    display: inline-block;
-    padding-top: 21px;
-    cursor: pointer;
-    width: 70px;
-    height: 28px;
-    /* line-height: 40px; */
-    font-size: 11px;
-}
-
-
-.help_icon {
-    font-size: 14px;
-    font-weight: bold;
-    padding: 2px 4px;
-    color: white;
-    display: inline-block;
-}
-
-.help_txt {
-    display: inline-block;
-    padding-top: 5px;
-    vertical-align: top;
-}
-
-.mail_lnk a, .help_lnk a {
-    color: #91e8b4;
-    font-family: henderson-bold;
-}
-
-.diff {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.footer {
-    width: 97%;
-    bottom: 0px;
-    left: 0px;
-    position: absolute;
-}
-
-body {
-    padding-bottom: 30px;
-    position: relative;
-    /*background-image: url(../../image/BG-Reduce.jpg);*/
-    background-size: cover;
-}
-
-
-/*header section css end*/
