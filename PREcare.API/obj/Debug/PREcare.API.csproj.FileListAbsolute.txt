@@ -39,3 +39,7 @@ C:\Users\Kumar Vijay\Desktop\Projects\PREpare\PREpare.API\bin\System.Web.Http.We
 C:\Users\Kumar Vijay\Desktop\Projects\PREpare\PREpare.API\obj\Debug\PREcare.API.csprojResolveAssemblyReference.cache
 C:\Users\Kumar Vijay\Desktop\Projects\PREpare\PREpare.API\obj\Debug\PREcare.API.dll
 C:\Users\Kumar Vijay\Desktop\Projects\PREpare\PREpare.API\obj\Debug\PREcare.API.pdb
+E:\My Data\PREcare\Prepare\PREcare.API\obj\Debug\PREcare.API.csprojAssemblyReference.cache
+E:\My Data\PREcare\Prepare\PREcare.API\obj\Debug\PREcare.API.csproj.CoreCompileInputs.cache
+E:\My Data\PREcare\Prepare\PREcare.API\obj\Debug\PREcare.API.dll
+E:\My Data\PREcare\Prepare\PREcare.API\obj\Debug\PREcare.API.pdb
