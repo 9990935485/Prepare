@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PREcare.BL", "PREcare.BL\PR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PREcare.DL", "PREcare.DL\PREcare.DL.csproj", "{B3256998-25D2-46CF-97C5-49A9E557AE88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PREcare.WebAPI", "PREcare.WebAPI\PREcare.WebAPI.csproj", "{656991B9-6375-433B-A48F-0EA180FC9480}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +35,15 @@ Global
 		{B3256998-25D2-46CF-97C5-49A9E557AE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3256998-25D2-46CF-97C5-49A9E557AE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3256998-25D2-46CF-97C5-49A9E557AE88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656991B9-6375-433B-A48F-0EA180FC9480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656991B9-6375-433B-A48F-0EA180FC9480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656991B9-6375-433B-A48F-0EA180FC9480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656991B9-6375-433B-A48F-0EA180FC9480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {767785B5-A8FE-46C1-BD41-93A136103794}
 	EndGlobalSection
 EndGlobal
